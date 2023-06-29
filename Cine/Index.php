@@ -20,6 +20,7 @@
 
 <h1>CineHoyts</h1>
 <h2>Compra de Entradas</h2>
+<div class="valorEntradas">
 
 <p>Valor entradas: $5000</p></p>
 <h3>Descuentos:</h3>
@@ -27,11 +28,15 @@
         
         <p>Niño = 30% </p>
         <p>Adulto = 5% </p>
-        <p>Adulto Mayor = 55% </p><br><br>
+        <p>Adulto Mayor = 55% </p>
+
+</div><br>
+
+<div class="formulario">
 
 <form action="resultado.php" method="POST">
     <label for="nombre">Nombre: </label>
-    <input type="text" name="nombre" ><br><br>
+    <input type="text" name="nombre" required><br><br>
 
     <label for="tipoEntrada">Elige tipo de entrada</label><br><br>
     <input type="radio" name="tipoEntrada" value="Niño"> Niño<br>
@@ -46,6 +51,14 @@
     <input type="submit" value="Comprar" name="BTN"><br><br>
 </form>
 
+</div>
+
+
+
+</div>
+
+<div>
+    <br><br>
 </div>
 
 

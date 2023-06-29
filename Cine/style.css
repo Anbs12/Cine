@@ -9,6 +9,7 @@ body{
     margin-right: 25%;
     text-align: center;
     border-style: solid;
+    box-shadow: 10px 3px 2px black;
 
 }
 
@@ -18,4 +19,21 @@ img{
     margin-left: 35%;
     margin-right: 35%;
     
+}
+
+.valorEntradas{
+    align-content: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
+    border-style: solid;
+    box-shadow: 2px 1px 2px black;
+}
+
+.formulario {
+    align-content: left;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: left;
+
 }
