@@ -1,0 +1,21 @@
+body{
+    background-color: bisque;
+}
+
+.container{
+    background-color: rgb(156, 228, 228);
+    align-content: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    border-style: solid;
+
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    margin-left: 35%;
+    margin-right: 35%;
+    
+}
